@@ -12,6 +12,7 @@ git commit -m "version 1.0"		// commit files to include files from stagging area
 git config --global user.email "sumeer@example.com"
 git config --global user.name "Sumeer Riaz"
 
+ls -la 							// List the directory, including hidden files/ folder
 ////////////////////////////////////////////////////////
 Quick setup https://github.com/Sumeer-Riaz/Git-Tutes.git
 Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
@@ -51,3 +52,6 @@ git reset git-readme.txt or git reset .
 git checkout git-readme.txt
 
 git restore git-readme.txt
+
+git clone git@github.com:Sumeer-Riaz/Git-Tutes.git 	// copy this url from ssh, not from https. Will clone with master folder
+git clone git@github.com:Sumeer-Riaz/Git-Tutes.git . // will clone without master folder
