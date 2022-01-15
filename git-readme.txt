@@ -3,6 +3,9 @@ git --version
 git init 						// declare current folder as git master for this project
 git status
 git add . 						// all the files have been added from working directory to stagging area
+								// 'git add -A' stages all
+								// 'git add .'  stages new and modified, without deleted
+								// 'git add -u' stages modified and deleted without adding new
 git rm --cached <file>			// to unstage
 git commit -m "version 1.0"		// commit files to include files from stagging area to git directory
 
