@@ -41,4 +41,4 @@ git add .
 git commit -m "changed in current file"
 git push -u origin master
 
-git pull
+git pull origin master
