@@ -40,5 +40,6 @@ clip < ~/.ssh/id_rsa.pub		// this command will copy public key
 git add .
 git commit -m "changed in current file"
 git push -u origin master
-
 git pull origin master
+
+git diff git-readme.txt
