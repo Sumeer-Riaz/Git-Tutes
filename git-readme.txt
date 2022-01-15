@@ -36,3 +36,7 @@ ssh-keygen -t rsa -b 4096 -C "sumeer@example.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519 		// to add identity
 clip < ~/.ssh/id_rsa.pub		// this command will copy --> ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDP1esZJavYVvVY5hywuPNK3tZ/pHitGKEymHGavNYUsVOh70SQpUFUwmUN//D92tUUPn0wCWOFee2DIJfzw4hNhNQu0+mvhu3PikZ6SlSFSt6f18nWoeAJkXMeZfADb+7jExsG61GbdOjT42aVmSWDC/DQXQEX25mNm9aqaMIRokT8kxhrL8hzmFCaIDkoS0f/oSg21ztECplhQjg8lORj6GZMmZqSJPqC1OyEFXD6QjmRIK5wWJN7VQE0Jrt8IH3HdjEKm5p2NdH6MzTLOMYlxkfglH9M8mS5dEgiwWKmnMMWD16PAW/y/ikBmWRBGiCY7nCwbczSwi5/zFXc30ChRE1meyg/i8VqrRyoM36xp3+toZil90Df0ZaR6KfL2B+SgfasqiYDZr56dnCD2/NFbOp8FnkuXWjLHAsEDs8xBgVaLVzk+nAs8PfI8QAkk32DDdsPOaqr6BwyfYQQGTPdSzPlTi2eUqMoSpoZWjiX/qjBlZaTAal9XZeDQk+sbZ3XCHJaSwCOG96X3UC9d/i89C9y8ePzL8A3IAIP+/DWbLP970YCizUkk94wZjeHtDvF/bbIHOYrfn8LA/W1frRVCj/fBAcTVUeQzPE/On+pkEh7bvCmF1Ff0dWkBcSmfrlhk3Ho52KE2spPvH1lZSY58BM1OIJOcK0aCNnpUlg4ew== sumeer@example.com
+								// add this key in ssh key in github
+git add .
+git commit -m "changed in current file"
+git push -u origin master
