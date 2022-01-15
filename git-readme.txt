@@ -43,4 +43,8 @@ git push -u origin master
 git pull origin master
 
 git diff git-readme.txt
-git reset git-readme.txt
+
+git reset git-readme.txt or git reset .
+git checkout git-readme.txt
+
+git restore git-readme.txt
